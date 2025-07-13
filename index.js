@@ -36,6 +36,11 @@ app.get("/", ( req, res)=>{
                 employeeName: "Shreya",
                 employeeSalary: 20000
             },
+             {
+                id: 7,
+                employeeName: "lop",
+                employeeSalary: 10000
+            },
         ]
     )
 
@@ -44,3 +49,4 @@ app.get("/", ( req, res)=>{
 app.listen(4000, () =>{
     console.log("App is running on Port No: 4000") 
 })
+
